@@ -12,6 +12,6 @@
 
 void riot_write(uint16_t addr, uint8_t data);
 uint8_t riot_read(uint16_t addr);
-void tick();
+void riot_tick(uint8_t count);
 
 #endif /* SRC_RIOT_H_ */

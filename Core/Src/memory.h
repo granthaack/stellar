@@ -22,6 +22,10 @@ uint8_t in_riot(uint16_t addr);
 // A12 = 1, A0 - A11 Read Addresses
 uint8_t in_cart(uint16_t addr);
 
+uint8_t read_memory(uint16_t addr);
+
+void write_memory(uint16_t addr, uint8_t data);
+
 #endif /* SRC_MEMORY_H_ */
 
 

@@ -44,6 +44,11 @@ uint8_t pa7_edge_detect = 0;
 
 uint8_t timer = 0;
 
+void riot_tick(uint8_t count){
+	// TODO
+	return;
+}
+
 void riot_write(uint16_t addr, uint8_t data){
 	if(in_ram(addr)){
 		addr = addr & (A0 | A1 | A2 | A3 | A4 | A5 | A6);
