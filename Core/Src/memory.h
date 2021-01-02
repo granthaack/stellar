@@ -8,6 +8,13 @@
 #ifndef SRC_MEMORY_H_
 #define SRC_MEMORY_H_
 
+// Incomplete Memory Map
+// (Does not take mirrored regions in to account)
+// 0x00 - 	0x7F: 	TIA
+// 0x80 - 	0xFF: 	RIOT RAM
+// 0x280 - 	0x2FF: 	RIOT Registers
+// 0x1000 - 0x1FFF: Cart
+
 // TIA Addresses:
 // CS3/A7 = 0, CS0/A12 = 0, A8 - A11 = X, A6 = X
 // A0 - A5 Select TIA Regs
